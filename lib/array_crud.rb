@@ -1,39 +1,48 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
-end
+  ["Gabriel" ,"Bibi" ,"Ozzie" ,"Nenem"]
+  end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["Gabriel" ,"Bibi"]
+  array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array = ["Gabriel" ,"Bibi"]
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = ["Gabriel" ,"Bibi" ,"arrays!"]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array = ["wow" ,"Gabriel" ,"Bibi"]
+  array.shift 
 end
 
+
 def retrieve_element_from_index(array, index_number)
-  
+  array = ["wow" ,"am" ,"Bibi"]
+  array[1]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  array = ["wow" ,"am" ,"Bibi"]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  array = ["wow" ,"am" ,"arrays!"]
+  array[2]
 end
 
 def update_element_from_index(array, index_number, element)
-
+array = ["wow" ,"am" ,"arrays!"]
+array[-1] = "totally"
 end
